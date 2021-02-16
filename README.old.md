@@ -22,18 +22,3 @@ Construindo uma aplicação WEB com ReactJS para consumir a API do Github.
 ## 
 
 ## Executando o Projeto
-
-```bash
-# 
-$ 
-
-# Acesse a pasta
-$ cd 
-
-#
-
-#
-
-
-
-```
