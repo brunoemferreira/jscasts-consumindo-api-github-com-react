@@ -6,9 +6,8 @@ Construindo uma aplicação WEB com ReactJS para consumir a API do Github.
 ## Tecnologias e Bibliotecas
 
 - [Visual Studio Code]() - IDE de Desenvolvimento
-- []() - 
+- [WebPack]() - 
 - [ReactJS]() -
-  - [react-dom]() - 
   - [axios]() - 
   - []() - 
   - []() -   
