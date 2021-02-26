@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
 import axios from 'axios';
 
 // Recebendo como props funções que são executadas e retornam o valor para traz
@@ -25,12 +26,8 @@ const SearchUser = ({ updateUser, updateRepos }) => {
 
   // Função que é ativada no submit do formulario
   function handleSubmit(e) {
-
-    console.log(username);
-
     getByUsername(username);
     getReposByUsername(username);
-
     e.preventDefault();
   }
 
@@ -54,6 +51,12 @@ const SearchUser = ({ updateUser, updateRepos }) => {
       </div>
     </div>
   )
+}
+
+// Seta um tipo para as props de funções
+SearchUser.prototype = {
+  updateUser: PropTypes.func.isRequired,
+  updateRepos: PropTypes.func.isRequired,
 }
 
 export default SearchUser;

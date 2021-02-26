@@ -25,7 +25,7 @@ const GitHub = () => {
     <div className="container">
       <SearchUser updateUser={handleUpdateUser}
         updateRepos={handleUpdateRepos} />
-      <UserInfo user={user} />
+      <UserInfo user={user} repos={repos} />
     </div>
   )
 }
